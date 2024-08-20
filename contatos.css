@@ -1,0 +1,68 @@
+input[type="submit"] {
+  background-color: #73b573;
+  padding: 15px 30px;
+  font-size: 18px;
+  width: 100%; 
+  border-color: #92c392;
+  border-radius: 5px; 
+  cursor: pointer; 
+  color: white;
+}
+
+select {
+  height:40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: #c4c4c4;
+}
+
+
+#nome {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+#email {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+#telefone {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+#mensagem {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+
+#assunto {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+
+fieldset {
+  border: 1px solid #c4c4c4;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+.submit- {
+  width: 100%;
+  margin: 8px;
+  padding: 16px;
+  color: white;
+  background-color: rgb(77, 221, 77);
+  border: none;
+  border-radius: 4px;
+}

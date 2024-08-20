@@ -1,0 +1,26 @@
+input[type="submit"] {
+  background-color: #73b573;
+  padding: 15px 30px;
+  font-size: 18px;
+  width: 100%; 
+  border-color: #92c392;
+  border-radius: 5px; 
+  cursor: pointer; 
+  color: white;  
+}
+
+
+#usuario {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+}
+
+#senha {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 5px; 
+  border-color: #c4c4c4;
+  margin-bottom: 10px;
+}
