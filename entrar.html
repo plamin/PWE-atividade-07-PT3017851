@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+</html>
 <header id="cabecalho">
   <div>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Pedro PWE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <div id="my_menu" align="right">
       <div class="navbar">
@@ -26,18 +36,90 @@
         <a id="text-right" href="sobtre.html" target="_top">Sobre</a>
       </div>
 
-      <link rel="stylesheet" href="entrar.css">
+      <div class="logo">
+        <img src="./imagens/cabeçalho.jpg" alt="">
       </div>
     </div>
 
+    <link rel="stylesheet" href="entrar.css">
+  </div>
+  </div>
 
-<img src="imagens/cabeçalho.jpg"> <br>
 
-<form>
-  <label for="usuario">Usuário</label>:<br>
-  <input type= "text" name="usuario" id= "usuario"> <br>
-  <label for="senha">Senha</label>:<br>
-  <input type= "password" name="senha" id= "senha"> <br>
-  <input type= "submit" value= "Entrar"> <br>
-  <a href= "#"> Esqueci a senha </a>
-</form>  
+
+
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Entrar - IFSP - Pirituba</title>
+    <link rel="shortcut icon" href="imagens/ifsp.png" type=""> <!-- Adiciona o ícone de aba de navegador-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="js/disabling.js"></script>
+  </head>
+
+  <body>
+
+    <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+      <nav>
+        <object width="100%" height="200px" data="menu.html"></object>
+      </nav>
+
+    </header>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+      <div class="p-4 text-center" style="max-width: 400px; width: 100%;">
+        <div>
+          <!-- Logo -->
+          <img src="imagens/ifsp.png" height="80" alt="Logo" class="mb-3">
+        </div>
+        <h3 class="mb-4">Faça login</h3>
+        <form>
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Endereço de email</label>
+            <input type="email" class="form-control text-center" id="email" placeholder="Seu email">
+          </div>
+          <!-- Senha -->
+          <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control text-center" id="senha" placeholder="Senha">
+          </div>
+          <!-- Checkbox -->
+          <div class="form-check mb-3 d-flex align-items-center justify-content-center">
+            <div class="d-flex">
+              <input class="form-check-input me-2" type="checkbox" id="lembrar">
+              <label class="form-check-label" for="lembrar">
+                Lembrar de mim
+              </label>
+            </div>
+          </div>
+          <!-- Esqueceu a senha -->
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none">Esqueci a senha</a>
+          </div>
+          <!-- Botão de login -->
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+        <!-- Footer -->
+        <div class="text-center mt-4">
+          <small class="text-muted">&copy; 2024</small>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+  </body>
+
+  </html>
